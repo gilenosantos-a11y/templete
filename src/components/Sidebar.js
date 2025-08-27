@@ -19,7 +19,6 @@ function Sidebar() {
           <div className="d-flex justify-content-between">
             <div className="logo">
               <a href="index.html">
-                {/* AQUI ESTÁ A ÚNICA MUDANÇA */}
                 <img
                   src="/assets/images/logo/logo.png.png"
                   alt="Logo"
@@ -50,7 +49,11 @@ function Sidebar() {
               </a>
             </li>
 
-            <li className="sidebar-item has-sub">
+            <li
+              className={`sidebar-item has-sub ${
+                openSubmenu === 'components' ? 'active' : ''
+              }`}
+            >
               <a
                 href="#"
                 className="sidebar-link"
