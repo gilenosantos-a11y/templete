@@ -5,7 +5,7 @@
   },
   {
     "name": "Dashboard",
-    "url": "index.html",
+    "url": "dashboard",
     "icon": "grid-fill"
   },
   {
@@ -194,7 +194,7 @@
   },
   {
     "name": "Form Layout",
-    "url": "form-layout.html",
+    "url": "form-layout",
     "icon": "file-earmark-medical-fill"
   },
   {
@@ -231,30 +231,18 @@
       }
     ]
   },
+  
   {
     "name": "Table",
-    "url": "table.html",
-    "icon": "grid-1x2-fill"
+    "icon": "table",
+    "url": "table"
   },
   {
     "name": "Datatables",
     "key": "table-datatable",
-    "icon": "file-earmark-spreadsheet-fill",
-    "submenu": [
-      {
-        "name": "Datatable",
-        "url": "table-datatable.html"
-      },
-      {
-        "name": "Datatable (jQuery)",
-        "url": "table-datatable-jquery.html"
-      }
-    ]
-  },
-  {
-    "name": "Extra UI",
-    "isTitle": true
-  },
+    "icon":"table"
+    },
+  
   {
     "name": "Widgets",
     "key": "ui-widgets",
@@ -327,14 +315,14 @@
         "name": "JS Vector Map",
         "url": "ui-map-jsvectormap.html"
       },
-			{
-				"name": "Leaflet Map",
-				"url": "ui-map-leaflet.html"
-			},
-			{
-				"name": "OpenLayers Map",
-				"url": "ui-map-openlayers.html"
-			}
+      {
+        "name": "Leaflet Map",
+        "url": "ui-map-leaflet.html"
+      },
+      {
+        "name": "OpenLayers Map",
+        "url": "ui-map-openlayers.html"
+      }
     ]
   },
   {

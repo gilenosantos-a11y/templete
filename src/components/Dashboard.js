@@ -1,6 +1,5 @@
 import React from 'react';
 import StatsCard from './StatsCard';
-import ProfileVisitChart from './ProfileVisitChart';
 import VisitorsChart from './VisitorsChart';
 import LatestComments from './LatestComments';
 import RegionalVisitsChart from './RegionalVisitsChart'; 
@@ -24,8 +23,6 @@ const Dashboard = () => {
         {/* Coluna da Esquerda (com os gráficos e comentários) */}
         <div style={{ flex: '2', display: 'grid', gap: '20px' }}>
           
-          {/* Gráfico de Barras */}
-          <ProfileVisitChart />
 
           {/* Gráfico de Linha e Comentários Lado a Lado */}
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 2fr', gap: '20px' }}>
